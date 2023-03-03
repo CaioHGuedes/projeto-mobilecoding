@@ -26,8 +26,11 @@ export default function App() {
     <View style = {styles.caixa3}>
       <Text style = {styles.texto2}>Postagem Simples</Text>
     </View>
-    <View style = {styles.caixa3}>
+    <View style = {styles.caixa5}>
       <Text>Uma pequena frase que não diz nada !</Text>
+    </View>
+    <View style = {styles.caixa6}>
+      <Text>Área pra foto</Text>
     </View>
   </View>  
     
@@ -62,6 +65,19 @@ const styles = StyleSheet.create({
     alignItems:'flex-start',
     marginHorizontal: 15,
     marginBottom:60
+  },
+
+  caixa5: {
+    backgroundColor: '#fff',
+    alignItems:'flex-start',
+    marginHorizontal: 15,
+    marginBottom:15
+  },
+
+  caixa6: {
+    backgroundColor:'red',
+    alignItems: 'center',
+    justifyContent: 'center'
   },
 
   texto1: {
