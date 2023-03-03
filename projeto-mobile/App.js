@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
   caixa6: {
     backgroundColor:'red',
     alignItems: 'center',
-    justifyContent: 'center'
+    paddingVertical:145
   },
 
   texto1: {
