@@ -26,7 +26,7 @@ export default function App() {
     <View style = {styles.caixa3}>
       <Text style = {styles.texto2}>Postagem Simples</Text>
     </View>
-    <View style = {styles.caixa4}>
+    <View style = {styles.caixa3}>
       <Text>Uma pequena frase que não diz nada !</Text>
     </View>
   </View>  
